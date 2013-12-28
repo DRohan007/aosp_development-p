@@ -1003,6 +1003,7 @@ include $(BUILD_SYSTEM)/soong_config.mk
 endif
 
 # Rules for QCOM targets
+include $(BUILD_SYSTEM)/qcom_target.mk
 -include $(BUILD_SYSTEM)/qcom_utils.mk
 
 include $(BUILD_SYSTEM)/dumpvar.mk

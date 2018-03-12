@@ -300,6 +300,8 @@ LOCAL_MODULE_OWNER := qcom
 
 LOCAL_PROPRIETARY_MODULE := true
 
+LOCAL_CFLAGS += -Wno-error
+
 include $(BUILD_SHARED_LIBRARY)
 
 endif

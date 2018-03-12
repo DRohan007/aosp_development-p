@@ -36,4 +36,6 @@ LOCAL_C_INCLUDES := \
         $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
 	$(call include-path-for, audio-effects)
 
+LOCAL_CFLAGS += -Wno-error
+
 include $(BUILD_SHARED_LIBRARY)
